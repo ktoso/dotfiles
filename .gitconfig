@@ -1,0 +1,24 @@
+[user]
+	name = Konrad Malawski
+	email = konrad.malawski@project13.pl
+[github]
+        user = ktoso
+	token = d51fb9d324258c628776dc7dc7b466fa
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[achievement]
+	upload = true
+[alias]
+	eclipse-formatter = !~/run-eclipse-formatter
+	gitka = !gitk --all
+	reflogr = reflog --date=relative
+	pom = push origin master
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+#	svn-diff-precommit= !sh -c 'diff remotes/git-svn-$(git branch | grep "*" | cut -d " " -f 2)..$(git branch | grep "*" | cut -d " " -f 2)'
+#	svn-log-precommit = !sh -c 'log remotes/git-svn-$(git branch | grep "*" | cut -d " " -f 2)..$(git branch | grep "*" | cut -d " " -f 2)'
+#[http]
+#	proxy = http://proxy.xsolve.pl:8888
