@@ -68,10 +68,9 @@ PATH=${PATH}:~/coding/libs/gwt-latest
 #msejf
 export MSEJF_HOME=/home/ktoso/coding/xsolve/msejf_home/
 
-# git achievements
-export PATH="$PATH:~/coding/git-achievements"
-alias git="git-achievements"
-
-
 export PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+# sidewinder macro-keys support
+cd $HOME/coding/sidewinder-x6-linux-macro-key-events
+sudo ./run.sh & 
